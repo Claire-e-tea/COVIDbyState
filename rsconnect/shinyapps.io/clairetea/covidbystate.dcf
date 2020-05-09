@@ -1,0 +1,10 @@
+name: covidbystate
+title:
+username:
+account: clairetea
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2272842
+bundleId: 3125341
+url: https://clairetea.shinyapps.io/covidbystate/
+when: 1589058996.27773

@@ -12,9 +12,13 @@ ui <- fluidPage(
         title = "COVID-19 Cases by State",
 
         conditionalPanel(condition = "input.maptype == 'Continuous'",
-                         plotOutput("cplot")),
+                         plotOutput("cplot",
+                                    width = 999,
+                                    height = 557)),
         conditionalPanel(condition = "input.maptype == 'Binary'",
-                         plotOutput("bplot")),
+                         plotOutput("bplot",
+                                    width = 999,
+                                    height = 557)),
         
         radioButtons("maptype",
                      "Map Type",
